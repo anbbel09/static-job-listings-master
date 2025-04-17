@@ -202,7 +202,7 @@ fetch('data.json')
         
             tagsCont.innerHTML += `
                  <div class="flex h-auto m-1 w-auto"> ${tagHTML}
-                 <img class="w-10 p-2 rounded-r-lg  bg-[#5ba4a4] cross" src="images/icons8-multiplicar-60.png">
+                 <img class="w-10 p-2 rounded-r-lg  bg-[#5ba4a4] cross cursor-pointer" src="images/icons8-multiplicar-60.png">
                 </div>
             `;
 
