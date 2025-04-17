@@ -144,7 +144,7 @@ fetch('data.json')
         const tags = [job.role, job.level, ...job.languages, ...job.tools];
 
         searchContainer.innerHTML += `
-          <article data-id="${job.id}" class="rounded-lg py-1 px-4 relative bg-white w-full h-auto mb-15 shadow-lg job cursor-pointer md:py-5 md:w-5/6 m-auto">
+          <article data-id="${job.id}" class="rounded-lg py-1 px-4 relative bg-white w-full h-auto mb-15 shadow-lg job cursor-pointer md:py-5 md:w-5/6 m-auto lg:w-2/5">
             <img class="w-1/6 -top-[28px] absolute md:max-w-20 md:-top-[40px]" src="${job.logo}" alt="${job.company} logo">
             <div class="mt-8 flex flex-col justify-between gap-2 h-auto">
       
